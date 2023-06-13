@@ -1,9 +1,9 @@
 # Flash
 
 
-Esse projeto é uma simulação do cartão de beneficios Flash que atende milhares de empresas e que tem como objetivo simplificar o gerenciamento dos beneficios enquanto oferece a melhor experiência para seu colaborador. 
+This project is a simulation of the Flash benefit card that serves thousands of companies and aims to simplify benefit management while providing the best experience for your employees. 
 
-## Dependências
+## Dependencies
 
 - Java 8
 - Spring Boot
@@ -12,7 +12,7 @@ Esse projeto é uma simulação do cartão de beneficios Flash que atende milhar
 
 
 
-## Funcionalidades
+## Functionality
 
-- Gasto sugerido por dia
-- Compras com parceiros
+- Suggested spend per day
+- Shopping with partners
