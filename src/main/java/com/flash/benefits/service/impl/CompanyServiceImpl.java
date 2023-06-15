@@ -16,7 +16,7 @@ public class CompanyServiceImpl implements CompanyService {
     }
     @Transactional
     public CompanyModel registerCompany(CompanyModel companyModel){
-        if(companyRepository.existsByCnpj(companyModel.getCnpj()) == false){
+        if(!companyRepository.existsByCnpj(companyModel.getCnpj())){
             return companyRepository.save(companyModel);
         }
         throw new EntityException("It is not possible to register the company because this cnpj is already being used in the system.");
